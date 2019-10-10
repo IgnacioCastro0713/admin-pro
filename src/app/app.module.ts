@@ -10,17 +10,23 @@ import { LoginComponent } from './views/login/login.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { SidebarComponent } from './components/shared/sidebar/sidebar.component';
 import { BreadcrumbsComponent } from './components/shared/breadcrumbs/breadcrumbs.component';
+import { ProgressComponent } from './views/progress/progress.component';
+import { PagesComponent } from './views/pages.component';
+import { RegisterComponent } from './views/register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    PagesComponent,
     DasboardComponent,
     Charts1Component,
-    PagenotfoundComponent,
     LoginComponent,
     HeaderComponent,
     SidebarComponent,
-    BreadcrumbsComponent
+    BreadcrumbsComponent,
+    ProgressComponent,
+    PagenotfoundComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
